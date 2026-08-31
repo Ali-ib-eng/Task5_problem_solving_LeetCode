@@ -1,3 +1,4 @@
+/*
 // 1. Reverse a String
 // Problem: Write a function that takes a string as an argument and returns the string reversed.
 
@@ -288,12 +289,7 @@ function RotateanArraytotheLeft(arr, n) {
         let first = arr[0];//1
         for (let j = 0; j < length - 1; j++) {
             arr[j] = arr[j + 1];
-            /*
-            i=0,first=1
-            j = 0: arr[0] = arr[1] -> [2, 2, 3, 4, 5]
-            j = 1: arr[1] = arr[2] -> [2, 3, 3, 4, 5]
-            j = 2: arr[2] = arr[3] -> [2, 3, 4, 4, 5]
-            j = 3: arr[3] = arr[4] -> [2, 3, 4, 5, 5]*/    
+                
         }
         arr[length - 1] = first;
     }
@@ -452,6 +448,7 @@ function MostFrequentElement(arr) {
 }  
         console.log(MostFrequentElement([1, 2, 3, 2, 2, 4, 5, 2]));//2
         console.log(MostFrequentElement(['a', 'b', 'c', 'a', 'b', 'a']));//a
+*/
 
 
 
