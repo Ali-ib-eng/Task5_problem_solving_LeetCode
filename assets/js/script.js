@@ -43,21 +43,26 @@ console.log(PalindromeCheck('ali'))//false
 // 3. Find the Maximum Number in an Array
 // Problem: Write a function that takes an array of numbers and returns the largest number in it.
 
+// 3. Find the Maximum Number in an Array
+// Problem: Write a function that takes an array of numbers and returns the largest number in it.
+
 // Example:
 // Input: [1, 5, 3, 9, 2]
 // Output: 9
-function maxNumberOfArray(arr){
-    let max=arr[0];//جعل فرضا اول عنصر هو الاكبر
-    for(i=0;i<arr.length;i++)
-    {
-        if(max<arr[i])
-            max=arr[i];
-    }
-    return max
+const findMaxNumber=(myarr)=>{
+    let max=myarr[0];
+    for (let i = 0; i < myarr.length; i++){
+        
+        if(max<myarr[i]){
+            max=myarr[i];
+        } 
+        
+        
+    }return max;
+    console.log(max)
 }
-//التجريب
-let arr=[3,5,7,20,8];
-console.log(maxNumberOfArray(arr));
+//let arr=[3,5,7,20,8];
+console.log(findMaxNumber([10,1, 5, 3,,209, 9, 9,10]));
 
 
 
